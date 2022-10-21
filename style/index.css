@@ -310,6 +310,7 @@ p {
 }
 
 /****PARENT-GRID LAYOUT******/
+/****CHILDREN-FLEXBOX LAYOUT******/
 section {
   display: flex;
   flex-direction: column;
@@ -369,4 +370,116 @@ section .shape-container img {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+
+.page-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.page-5 .review {
+  display: flex;
+  justify-content: center;
+}
+.page-5 img {
+  width: 100%;
+  height: 100%;
+}
+.page-5 .fa-quote-left {
+  color: blue;
+  font-size: 2rem;
+}
+.page-5 .page5-box {
+  background: transparent;
+}
+
+/**********MEDIA QUERY***************/
+@media (max-width: 800px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar .toggle-button {
+    display: flex;
+  }
+  .navbar .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  .navbar .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar .navbar-links ul li {
+    text-align: center;
+  }
+  .navbar .navbar-links ul li a {
+    padding: 0.5rem 1rem;
+  }
+  .navbar .navbar-links.active {
+    display: flex;
+  }
+}
+@media (max-width: 800px) {
+  .page-2 {
+    padding: 0;
+  }
+  .page-2 h2 {
+    font-size: 3vw;
+  }
+  .page-2 p {
+    font-size: 3vw;
+  }
+  .page-2 .page2-text {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    line-height: 1.2rem;
+  }
+  .page-2 .page2-wrapper {
+    padding: 0;
+    margin: 0;
+  }
+  .page-2 .explore-btn {
+    font-size: 2vw;
+  }
+}
+@media (max-width: 800px) {
+  .page-3-wrapper {
+    justify-content: center;
+    margin: auto;
+  }
+}
+@media (max-width: 800px) {
+  .page-4-wrapper {
+    justify-content: center;
+    margin: auto;
+  }
+}
+@media (max-width: 800px) {
+  .page5-img {
+    background: transparent;
+  }
+}
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+footer .logo {
+  margin-top: 2rem;
+}
+footer ul {
+  display: flex;
+  gap: 2rem;
+}
+footer .fa-linkedin {
+  color: blue;
+}
+footer .fa {
+  font-size: 1.2rem;
+}
+footer .fa:hover {
+  color: seagreen;
 }/*# sourceMappingURL=index.css.map */
