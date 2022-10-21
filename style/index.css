@@ -231,6 +231,7 @@ p {
   position: relative;
   flex-direction: row;
   justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .navbar .logo {
