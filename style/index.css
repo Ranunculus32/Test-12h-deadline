@@ -1,9 +1,15 @@
 @charset "UTF-8";
+/** CONTENT LAYOUT
+Webpage layout
+General styling
+Specific styling per page
+***/
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
+/***WEBPAGE LAYOUT******/
 body {
   display: grid;
   grid-template-rows: 1fr 1fr auto 1fr 1fr 1fr auto;
@@ -254,14 +260,16 @@ p {
 .navbar .navbar-links .navitem {
   color: white;
 }
-.navbar ul {
+
+ul {
   display: flex;
   justify-content: space-between;
   position: relative;
   gap: 20px;
   text-transform: uppercase;
 }
-.navbar .toggle-button {
+
+.toggle-button {
   position: absolute;
   top: 0.75rem;
   right: 1rem;
@@ -271,13 +279,15 @@ p {
   width: 30px;
   height: 21px;
 }
-.navbar .toggle-button .bar {
+
+.toggle-button .bar {
   height: 3px;
   width: 100%;
   background-color: white;
   border-radius: 10px;
 }
 
+/********STYLE PER PAGE***********/
 .page-2 {
   display: flex;
   justify-content: center;
@@ -309,8 +319,6 @@ p {
   text-transform: uppercase;
 }
 
-/****PARENT-GRID LAYOUT******/
-/****CHILDREN-FLEXBOX LAYOUT******/
 section {
   display: flex;
   flex-direction: column;
