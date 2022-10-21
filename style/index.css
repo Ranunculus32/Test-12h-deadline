@@ -60,28 +60,33 @@ body {
   color: white;
   font-weight: lighter;
 }
-body h1 {
+
+h1 {
   font-size: 3rem;
 }
-body h2 {
+
+h2 {
   font-size: 2.25rem;
   font-weight: lighter;
   text-align: center;
   font-family: "Aleo", serif;
 }
-body h4 {
+
+h4 {
   font-size: 2.25rem;
   font-weight: 400;
   text-align: center;
 }
-body li {
+
+li {
   list-style-type: none;
 }
-body li a {
+li a {
   text-decoration: none;
   color: white;
 }
-body .btn {
+
+.btn {
   font-family: "Aleo", serif;
   color: white;
   font-size: minmax(2vw);
@@ -94,32 +99,38 @@ body .btn {
   background-color: #5474FD;
   border: none;
 }
-body .btn:hover {
+
+.btn:hover {
   cursor: pointer;
   color: black;
   background-color: #bbe4e9;
 }
-body a {
+
+a {
   font-family: "Aleo", serif;
   color: white;
   font-weight: 400;
   font-size: 0.8rem;
   line-height: 1.6rem;
 }
-body a:hover {
+
+a:hover {
   cursor: pointer;
   color: yellow;
 }
-body p {
+
+p {
   letter-spacing: 1.5px;
   font-weight: lighter;
 }
-body .p-cap {
+
+.p-cap {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.25;
 }
-body .box {
+
+.box {
   width: 24rem;
   height: 20rem;
   background-color: #232323;
@@ -127,7 +138,8 @@ body .box {
   line-height: 1.3rem;
   padding: 1rem;
 }
-body .fa {
+
+.fa {
   color: white;
 }
 
@@ -264,4 +276,72 @@ body .fa {
   width: 100%;
   background-color: white;
   border-radius: 10px;
+}
+
+.page-2 {
+  display: flex;
+  justify-content: center;
+}
+.page-2 .page2-wrapper {
+  width: 70vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  align-items: stretch;
+  padding: 2rem;
+  gap: 1rem;
+}
+.page-2 .page2-wrapper .page2-text {
+  flex-grow: 2;
+  background: transparent;
+}
+.page-2 .page2-wrapper .page2-text h2 {
+  text-align: start;
+}
+.page-2 .page2-wrapper .page2-img-container {
+  flex-grow: 1;
+}
+.page-2 .page2-wrapper .page2-img-container .page2-img2 {
+  text-align: right;
+}
+.page-2 .page2-wrapper .explore-btn {
+  text-transform: uppercase;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section .icons-wrapper-page-2 {
+  height: 80%;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+}
+section .icons-wrapper-page-2 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section .icons-wrapper-page-2 img {
+  width: auto;
+  height: 4vw;
+}
+section .icons-wrapper-page-2 h2 {
+  font-size: 3vw;
+}
+section .shape-container {
+  height: 25%;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  margin-right: 2.8rem;
+}
+section .shape-container img {
+  width: 50%;
+  height: auto;
 }/*# sourceMappingURL=index.css.map */

@@ -59,88 +59,89 @@ body {
     font-size: 1rem;
     color: white;
     font-weight: lighter;
-
-    h1 {
-        font-size: 3rem;
-    }
-    h2 {
-        font-size: 2.25rem;
-        font-weight: lighter;
-        text-align: center;
-        font-family: 'Aleo', serif;
-    }
-    h4 {
-        font-size: 2.25rem;
-        font-weight: 400;
-        text-align: center;
-    }
-    li {
-        list-style-type: none;
-         a {
-            text-decoration: none;
-            color: white;
-         }
-        
-    }
-    .btn {
-        font-family: 'Aleo', serif;
-        color: white;
-        // font-size: 0.9rem;
-        font-size: minmax(2vw);
-        font-weight: 400;
-        line-height: 1.6rem;
-        letter-spacing: 1.4px;
-        text-align: center;
-        // width: 14.25rem;
-        // height: 3.9rem;
-        width: 15vw;
-        height: 7vh;
-        background-color: #5474FD;
-        border: none;
-    }
-    
-
-    .btn:hover {
-        cursor: pointer;
-        color: black;
-        background-color: #bbe4e9;
-       
-        }
-
-    a {
-        font-family: 'Aleo', serif;
-        color: white;
-        font-weight: 400;
-        font-size: 0.8rem;
-        line-height: 1.6rem;        
-
-    }
-    a:hover {
-        cursor: pointer;
-        color: yellow;
-    }
-    p {
-        letter-spacing: 1.5px;
-        font-weight: lighter;
-    
-    }
-    .p-cap {
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: 1.25;
-    } 
-    .box {
-        width: 24rem;
-        height: 20rem;
-        background-color:#232323;
-        opacity: 0.8;
-        line-height: 1.3rem;
-        padding: 1rem;
-    }
-    .fa {
-        color: white;
-    }
 }
+
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2.25rem;
+    font-weight: lighter;
+    text-align: center;
+    font-family: 'Aleo', serif;
+}
+h4 {
+    font-size: 2.25rem;
+    font-weight: 400;
+    text-align: center;
+}
+li {
+    list-style-type: none;
+     a {
+        text-decoration: none;
+        color: white;
+     }
+    
+}
+.btn {
+    font-family: 'Aleo', serif;
+    color: white;
+    // font-size: 0.9rem;
+    font-size: minmax(2vw);
+    font-weight: 400;
+    line-height: 1.6rem;
+    letter-spacing: 1.4px;
+    text-align: center;
+    // width: 14.25rem;
+    // height: 3.9rem;
+    width: 15vw;
+    height: 7vh;
+    background-color: #5474FD;
+    border: none;
+}
+
+
+.btn:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #bbe4e9;
+   
+    }
+
+a {
+    font-family: 'Aleo', serif;
+    color: white;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.6rem;        
+
+}
+a:hover {
+    cursor: pointer;
+    color: yellow;
+}
+p {
+    letter-spacing: 1.5px;
+    font-weight: lighter;
+
+}
+.p-cap {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.25;
+} 
+.box {
+    width: 24rem;
+    height: 20rem;
+    background-color:#232323;
+    opacity: 0.8;
+    line-height: 1.3rem;
+    padding: 1rem;
+}
+.fa {
+    color: white;
+}
+
 /**********SPECIFIC STYLE ************************/
 .page-1 {
     height: 100vh;
@@ -285,4 +286,76 @@ ul {
   border-radius: 10px;
 }
 
+}
+.page-2 {
+    display: flex;
+    justify-content: center;
+    
+    .page2-wrapper {
+        width: 70vw;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        flex-flow: wrap;
+        align-items: stretch;
+        padding: 2rem;
+        gap: 1rem;
+        .page2-text {
+            flex-grow: 2;
+            background: transparent;
+            h2 {
+                text-align: start;
+            }
+        }
+        .page2-img-container {
+            flex-grow: 1;
+           .page2-img2 {
+            text-align: right;
+           }
+        }
+        .explore-btn {
+            text-transform: uppercase;
+        }
+    }       
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+
+    .icons-wrapper-page-2 {
+        height: 80%;
+        margin-bottom: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3.5rem;
+      
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+        }
+        img {
+            width:auto;
+            height: 4vw;
+        }
+        h2 {
+            font-size: 3vw;
+        }
+        
+    }
+    .shape-container {
+        height: 25%;
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+        margin-right: 2.8rem;
+        img {
+            width: 50%;
+            height: auto;
+        }
+    }
 }
