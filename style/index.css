@@ -309,6 +309,7 @@ p {
   text-transform: uppercase;
 }
 
+/****PARENT-GRID LAYOUT******/
 section {
   display: flex;
   flex-direction: column;
@@ -344,4 +345,28 @@ section .shape-container {
 section .shape-container img {
   width: 50%;
   height: auto;
+}
+
+.page-3-wrapper {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-content: center;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.page-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.page-4 .page-4-wrapper {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }/*# sourceMappingURL=index.css.map */
